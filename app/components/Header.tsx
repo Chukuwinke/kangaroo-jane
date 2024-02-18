@@ -11,7 +11,7 @@ export function Header({header, isLoggedIn, cart}: HeaderProps) {
   return (
     <header className="header">
       <NavLink prefetch="intent" to="/" style={activeLinkStyle} end>
-      <strong>{"Bubba"}</strong>{/* <strong>{shop.name}</strong> */}
+      <strong>{"Kangaroo Jane"}</strong>{/* <strong>{shop.name}</strong> */}
       </NavLink>
       <HeaderMenu menu={menu} viewport="desktop" />
       <HeaderCtas isLoggedIn={isLoggedIn} cart={cart} />
